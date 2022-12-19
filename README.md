@@ -11,9 +11,8 @@
 
 *Compilation*
 
-   To run the minic program, use `make` to compile and `make clean` to clean the output files use. 
-   Some examples have been provided to illustrate functionality in the `examples` folder. 
-   To run use `./minic [FILENAME]` to read from either a file or STDIN.
+   The program was compiled using GCC via the following command: `gcc -o RayTracer.o RayTracer.cpp -lstdc++ -lm -o3`.
+   To run use `./RayTracer.o [SAMPLE_COUNT]` and the image will be written to `cornellbox.ppm`.
 
 <hr></hr>
 
